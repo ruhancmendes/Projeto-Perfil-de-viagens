@@ -1,0 +1,11 @@
+.footer{
+    flex-direction: column;
+}
+@media (width >= 80em) {
+    .footer{
+        flex-direction: row;
+        & span{
+            margin-right: auto;
+        }
+    }
+}
