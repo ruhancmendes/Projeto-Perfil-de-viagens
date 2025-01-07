@@ -1,0 +1,29 @@
+a.explorer {
+  --bg-img: "";
+  background-image: var(--bg-img);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+
+  &[aria-label="explorer"] {
+    --bg-img: url("../assets/icons/MagnifyingGlass.svg");
+    &:hover {
+      --bg-img: url("../assets/icons/MagnifyingGlass-hover.svg");
+    }
+  }
+}
+header{
+    & a:first-child{
+        margin-right: auto;
+    }
+    background-color: var(--surface-color);
+}
+@media (width >= 80em){
+    a.explorer{
+        width: 2rem;
+        height: 2rem;
+    }
+}

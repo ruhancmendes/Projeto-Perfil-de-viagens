@@ -8,8 +8,8 @@
     padding: var(--p-main);
 }
 .container{
-    --max-width: 360px;
-    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    --max-width: 375px;
+    width: min(var(--max-width), 100% - var(--px-base) * 2);
     margin-inline: auto;
 }
 .desktop-only{
@@ -36,7 +36,7 @@
     .container {
         --max-width: 80rem;
     }
-    .destok-only{
+    .desktop-only{
         display: initial;
     }
     .even-columns{
