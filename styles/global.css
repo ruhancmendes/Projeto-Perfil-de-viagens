@@ -21,7 +21,7 @@
 
   /*text*/
   --ff-sans: "Poppins", serif;
-  --heading1: 700 2rem/125% var(--ff-sans);
+  --heading1: 700 1.5rem/125% var(--ff-sans);
   --text-md: 400 0.875rem/170% var(--ff-sans);
   --text-sm: 400 0.75rem/170% var(--ff-sans);
 
@@ -48,5 +48,6 @@ a:hover {
   :root{
     --px-base: 2rem;
     --py-base: 1.5rem;
+    --heading1: 700 2rem/125% var(--ff-sans);
   }
 }

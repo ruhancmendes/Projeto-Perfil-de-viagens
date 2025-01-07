@@ -1,0 +1,53 @@
+#about{
+    background-color: var(--surface-color);
+}
+.main-profile{
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.profile{
+    display: flex;
+    max-width: 18.5rem;
+    flex-direction: column;
+
+}
+.description{
+    flex-direction: column;
+    gap: .5rem;
+}
+h1 {
+    font: var(--heading1);
+    color: var(--text-color-primary);
+}
+.info{
+    flex-direction: column;
+}
+.location,
+.countries,
+.photos{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+@media (width >= 80em){
+    .profile-pic{
+        width: 11rem;
+        height: 11rem;
+    }
+    .main-profile,
+    .profile{
+        flex-direction: row;
+    }
+    .profile{
+        max-width: 37rem;
+        gap: 2rem;
+        margin-right: auto;
+    }
+    .main-profile{
+        align-items: center;
+    }
+}

@@ -28,6 +28,9 @@
 .gap-1{
     gap: 1rem;
 }
+.gap-2{
+    gap: 2rem;
+}
 .grid {
     display: grid;
 }
