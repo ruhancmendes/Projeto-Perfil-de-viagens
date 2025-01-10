@@ -54,7 +54,7 @@ This project was developed using the following tools and technologies:
 - Figma for design and prototyping.
 
 ## 📄 About the Project
-The goal of this project was to create a page resembling a Travel Profile, exploring concepts such as Flexbox and CSS variables. The focus is on:
+The goal of this project was to create a page resembling a Travel Profile, focusing on responsiveness and concepts such as mobile-first and media queries. The focus is on:
 
 - Structuring content with semantic HTML.
 - Styling the page using CSS.
